@@ -46,7 +46,7 @@ function preguntarPuntajes() {
   let puntajeEncriptador = 0;
   let idJuego = parseInt(
     prompt(
-      "Cuál juego deseas calificar?\n 0. Adivinador\n 1. Memotest\n 2. Encriptador\n Por favor indica un número entre 1 y 3"
+      "Cuál juego deseas calificar?\n 0. Adivinador\n 1. Memotest\n 2. Encriptador\n Por favor indica un número entre 0 y 2"
     )
   );
 
@@ -65,7 +65,7 @@ function preguntarPuntajes() {
           puntajeEncriptador++;
           break;
         default:
-          alert("Por favor, selecciona un número entre 1 y 3");
+          alert("Por favor, selecciona un número entre 0 y 2");
       }
     }
   });
